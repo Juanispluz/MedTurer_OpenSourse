@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MedTurer</string>
+    <string name="menu">Menu</string>
+    <string name="back">Atrás</string>
+    <string name="profile">Perfil</string>
+
+</resources>

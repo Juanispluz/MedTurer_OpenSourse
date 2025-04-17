@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFD1E5FF">
+
+    <View
+        android:id="@+id/top_curve"
+        android:layout_width="1200dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="-80dp"
+        android:layout_marginTop="-190dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/splash_curved_background_top"
+        android:elevation="8dp"
+        android:rotation="-15" />
+
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="414dp"
+            android:layout_height="323dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_sin_fondo" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/bottom_curve"
+        android:layout_width="1200dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="-50dp"
+        android:background="@drawable/splash_curved_background_bottom"
+        android:elevation="8dp"
+        android:rotation="-15" />
+</LinearLayout>
